@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  }
+
+::selection{
+  color: #d52828; /* Цвет текста */
+ background: #000; /* Цвет фона */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: rgba(0, 0, 0, 0.71);
+    /*  background-image: url(images/фон/school103.png);
+    hsla(0, 0%, 9%, 0.5)),
+    url(images/фон/school103.png);*/
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.intro__title {
+    color: #fff;
+    font-size: 50px;
+
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.intro__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px auto;
+
+    background-color: #fff;
+}
+
+.intro__suptitle {
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+/* Header */
+.header {
+    width: 100%;
+    padding-top: 30px;
+    background: #000000;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_png{
+height: 50px;
+filter: grayscale(100%); /*переделка в ч.б.*/
+
+}
+
+.header__logo:hover {
+    filter: blur(1px);
+    box-shadow: #0003ff  ;
+}
+
+/*кнопки для навигации*/
+/* Nav */
+.nav {
+    font-size: 14px ;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 2s ease;
+}
+
+.n1{
+  width: 40px;
+  margin-left: 20px;
+  transition: All 0.2s ease;
+
+}
+
+.n1:hover {
+  transform: translate(2px, 3px);
+  box-shadow: 0px 0px 5px rgba(245, 0, 0, 0.68) ;
+  filter: blur(1px);
+}
+
+
+/*кнопки под названием(!основные!)*/
+
+
+.block__intro_buttoms{
+  display: inline-grid;
+  background-color: #ffffff;
+  margin-left: 5%;
+  margin-right: 5% ;
+  margin-top: 40px;
+  width: 200px;
+  height: 150px;
+  position:relative;
+  text-align: center;
+  transition: 0.2s ;
+
+  border-radius: 50px;
+  background: #5c5c5c;
+  box-shadow:  23px 23px 46px #515151,
+               -23px -23px 46px #676767;
+}
+
+
+.bloc_hover{
+  position:absolute;
+   left:0;
+   bottom:0;
+   right:0;
+   top:0;
+   padding:5px;
+   display:none;
+
+}
+
+.block__intro_buttoms:hover .bloc_hover {
+    display:block;
+    /*background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5))*/
+}
+
+
+.block__intro_buttoms:hover{
+    box-shadow:  0px 0px 30px #eb0000;
+  /*filter: blur(1px);*/
+  transform: translate(2px, 3px);
+
+}
+
+.p_txt{
+  margin-top: 55px;
+  color: black;
+}
+
+
+
+/*info*/
+
+
+.info {
+  background-color: #444;
+  position: fixed; /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  padding: 5px;
+  width: 100%;
+  height: 15px;
+  filter: alpha(Opacity=70);
+  color: #ffffff;
+}
+
+
+.padding1{
+  margin: 0;
+}
