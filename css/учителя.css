@@ -138,7 +138,7 @@ td {
   background: linear-gradient(315deg, #e6e6e6, #ffffff);
   box-shadow:  -20px -20px 60px #969696,
                20px 20px 60px #ffffff;
-border-radius:80% 20% 80% 20% / 20% 80% 20% 80%  ;
+/*border-radius: / ;*/
 transition: All 0.2s ease;
 z-index: 10;
 position: relative;
@@ -147,9 +147,8 @@ position: relative;
 
           .tr1
           .th1:hover{
-            border-radius:86% 14% 84% 16% / 13% 89% 11% 87%  ;
             background: linear-gradient(315deg, #f4f2f2, #cdcbcb);
-            box-shadow:  -27px -27px 54px #7d7c7c,
+            box-shadow:  -27px -27px 54px #6f6f6f,
                          27px 27px 54px #ffffff;
           }
           .tr1
@@ -161,11 +160,16 @@ position: relative;
           }
 
   .img_techer{
-    z-index: 3
-  }
 
+  }
+}
+li:before {
+content: "\xf118"; /* добавляем иконку */
+font-family: FontAwesome;
+color: #aaaaaa;
+margin-right: 10px;
+}
   text{
-    text-shadow: 3px 5px 6px #6C9, -6px -7px 6px #D9FFA7;
   }
 /*<!----------------------------------------------->*/
 
