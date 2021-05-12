@@ -41,9 +41,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
 
     background: rgba(0, 0, 0, 0.71);
-    /*  background-image: url(images/фон/school103.png);
+     background-image: url(images/фон/school103.png);
     hsla(0, 0%, 9%, 0.5)),
-    url(images/фон/school103.png);*/
+    url(images/фон/school103.png);
 }
 
 .intro__inner {
