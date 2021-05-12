@@ -40,11 +40,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh;
 
-    background: rgba(0, 0, 0, 0.71);
-     background-image: url(images/фон/school103.png);
-    hsla(0, 0%, 9%, 0.5)),
-    url(images/фон/school103.png);
-}    
+
+    background: #c7b39b url(../images/фон/school103.jpg) no-repeat;
+    background-size: cover;
+}
 
 .intro__inner {
     width: 100%;
@@ -151,9 +150,7 @@ filter: grayscale(100%); /*переделка в ч.б.*/
   transition: 0.2s ;
 
   border-radius: 50px;
-  background: #5c5c5c;
-  box-shadow:  23px 23px 46px #515151,
-               -23px -23px 46px #676767;
+  background: #5c5c5c;    
 }
 
 
